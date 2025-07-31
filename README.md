@@ -30,9 +30,36 @@ Designed with an **Open Source Hardware** philosophy, powered by a **3V CR123 ce
 
 ---
 
-## 📁 Repo structure
+This repository is released under a dual-license model:
 
-```bash
-hardware/         # Esquemático y PCB (KiCad)
-firmware/         # Código fuente para ESP32-C3
-doc/              # Diagramas, fotos, análisis
+---
+
+## 📐 Hardware (KiCad designs)
+
+**License:** [CERN Open Hardware License v2](https://ohwr.org/project/cernohl/wikis/home)
+
+You are free to use, study, modify and distribute the hardware files, provided that:
+- Derivative works are also released under CERN-OHL v2.
+- Modifications are documented.
+- Attribution is preserved.
+
+---
+
+## 💻 Firmware (source code under `/firmware/`)
+
+**License:** MIT License
+
+```text
+MIT License
+
+Copyright (c) 2025 [YourName]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+[... standard MIT text continues ...]
+
