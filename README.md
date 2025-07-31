@@ -1,37 +1,36 @@
-# 🔔 DIY Alarm Sensor with ESP32-C3 + RFM69 + PIR (AS312)
+# 🔔 Wireless Alarm Sensor with ESP32-C3 + RFM69 + PIR (AS312)
 
-Este proyecto consiste en un sensor de movimiento inalámbrico ultra bajo consumo basado en un **ESP32-C3**, un **transceiver RFM69** en la banda de **926 MHz FSK**, y un **sensor PIR AS312** como detector principal.
+This project consists of an ultra-low-power wireless motion sensor based on an **ESP32-C3**, an **RFM69 transceiver** in the 926 MHz FSK band, and an **AS312 PIR sensor** as the main detector.
 
-Diseñado con filosofía **Open Source Hardware**, alimentado con una celda **CR123 de 3V**, y orientado a aplicaciones de seguridad, monitoreo o domótica de bajo consumo energético.
+Designed with an **Open Source Hardware** philosophy, powered by a **3V CR123 cell**, and aimed at low-power, long-life security, monitoring, and home automation applications.
 
 ---
 
-## 📡 Características técnicas
+## 📡 Specs
 
 - **MCU:** ESP32-C3 (RISC-V, Wi-Fi, BLE)
-- **Transceiver:** RFM69 (FSK, 926 MHz, punto a punto o red personalizada)
-- **Sensor PIR:** AS312 (modo interrupt, ultrabajo consumo)
-- **Modo de bajo consumo:** DeepSleep, despertando por GPIO
-- **Consumo en standby:** < 10 µA
-- **Alimentación:** Batería CR123 de 3V
-- **Diseño PCB:** Hecho en KiCad
-- **Fabricación:** NextPCB
-- **Open Hardware:** Licencia CERN-OHL v2
+- **Transceiver:** RFM69 (FSK, 926 MHz, point-to-point or custom network)
+- **Sensor PIR:** AS312 (interrupt mode, ultra-low power consumption)
+- **Low power mode:** DeepSleep, waking up by IRQ
+- **Standby consumption:** < 30 µA
+- **Power supply:** 3V CR123 battery
+- **Manufacturing PCBA:** NextPCB
+- **Open Hardware:** License CERN-OHL v2
 - **Firmware:** PlatformIO / Arduino Framework
 
 ---
 
-## 🔋 Consumo estimado
+## 🔋 Estimated consumption
 
-| Estado         | Consumo típico |
-|----------------|----------------|
-| DeepSleep      | ~5 µA          |
-| PIR detectado  | ~20 mA por 1s  |
-| TX RFM69       | ~45 mA por 50ms|
+| State          | Typical consumption |
+|----------------|---------------------|
+| DeepSleep      | ~30 µA              |
+| PIR detected   | ~20 mA by 1s        |
+| TX RFM69       | ~45 mA by 50ms      |
 
 ---
 
-## 📁 Estructura del repositorio
+## 📁 Repo structure
 
 ```bash
 hardware/         # Esquemático y PCB (KiCad)
