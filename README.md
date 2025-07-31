@@ -6,6 +6,12 @@ Designed with an **Open Source Hardware** philosophy, powered by a **3V CR123 ce
 
 ---
 
+## 📸 Top View of the PCB
+
+![NodeAlarm PCB Top View](https://github.com/electgpl/NodeAlarm/raw/main/Resources/NodeAlarmTop.png)
+
+---
+
 ## 📡 Specs
 
 - **MCU:** ESP32-C3 (RISC-V, Wi-Fi, BLE)
