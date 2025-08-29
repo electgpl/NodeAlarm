@@ -30,9 +30,9 @@ Designed with an **Open Source Hardware** philosophy, powered by a **3V CR123 ce
 
 | State          | Typical consumption |
 |----------------|---------------------|
-| DeepSleep      | ~30 µA              |
-| PIR detected   | ~20 mA by 1s        |
-| TX RFM69       | ~45 mA by 50ms      |
+| DeepSleep      | ~24 µA              |
+| PIR & CORE     |  ~9 mA by 5s        |
+| TX RFM69       | ~18 mA by 1.5s      |
 
 ![NodeAlarm PCB Top View](https://raw.githubusercontent.com/electgpl/NodeAlarm/refs/heads/main/Firmware/Captura%20de%20pantalla%202025-08-28%20193439.png)
 ---
