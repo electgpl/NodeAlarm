@@ -34,6 +34,7 @@ Designed with an **Open Source Hardware** philosophy, powered by a **3V CR123 ce
 | PIR detected   | ~20 mA by 1s        |
 | TX RFM69       | ~45 mA by 50ms      |
 
+![NodeAlarm PCB Top View](https://raw.githubusercontent.com/electgpl/NodeAlarm/refs/heads/main/Firmware/Captura%20de%20pantalla%202025-08-28%20193439.png)
 ---
 
 This repository is released under a dual-license model:
